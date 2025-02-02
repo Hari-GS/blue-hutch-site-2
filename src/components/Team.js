@@ -1,8 +1,5 @@
 import React from 'react';
-import ceo from '../images/team/seo/1.jpg';
-import developer from '../images/team/seo/2.jpg';
-import marketer from '../images/team/seo/3.jpg';
-import template from '../images/partner/gray2/profile-placeholder.jpg';
+import template from '../images/partner/profile-placeholder.jpg';
 
 function Team() {
   return (
