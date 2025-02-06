@@ -1,5 +1,7 @@
 import React from 'react';
-import template from '../images/partner/profile-placeholder.jpg';
+import hari from '../images/partner/Hari (1).jpg';
+import team from '../images/partner/Team-placeholder.webp'
+import template from '../images/partner/profile-placeholder.jpg'
 
 function Team() {
   return (
@@ -16,7 +18,7 @@ function Team() {
           {/* Team Member 1 */}
           <div className="team-item bg-white shadow-lg rounded-lg overflow-hidden w-full sm:w-[250px] md:w-[300px] h-auto sm:h-[400px]">
             <div className="relative">
-              <img src={template} alt="Vinisha" className="w-full h-48 sm:h-56 md:h-64 object-cover" />
+              <img src={hari} alt="Vinisha" className="w-full h-48 sm:h-56 md:h-64 object-cover" />
             </div>
             <div className="text-center py-4 sm:py-5">
               <h4 className="text-lg sm:text-xl font-semibold">
@@ -46,7 +48,7 @@ function Team() {
           {/* Team Member 3 */}
           <div className="team-item bg-white shadow-lg rounded-lg overflow-hidden w-full sm:w-[250px] md:w-[300px] h-auto sm:h-[400px]">
             <div className="relative">
-              <img src={template} alt="Deepan Raj R" className="w-full h-48 sm:h-56 md:h-64 object-cover" />
+              <img src={team} alt="Deepan Raj R" className="w-full h-48 sm:h-56 md:h-64 object-cover" />
             </div>
             <div className="text-center py-4 sm:py-5">
               <h4 className="text-lg sm:text-xl font-semibold">

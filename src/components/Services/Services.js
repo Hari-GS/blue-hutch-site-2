@@ -20,13 +20,13 @@ const servicesData = [
   },
   {
     id: 3,
-    name: 'Page Speed Optimization & SEO',
+    name: 'Game Development',
     description: 'We optimize website page speed by ensuring faster loading time and lower page size. We are also experts with Google Accelerated Mobile Pages (AMP). We also work on SEO.',
     icon: icon3,
   },
   {
     id: 4,
-    name: 'eCommerce Websites Development',
+    name: 'Mobile App Development',
     description: 'We develop all types of customized eCommerce Websites including Grocery stores, Clothes stores, Jewelry stores, etc. We also develop multi-store and multi-vendor sites.',
     icon: icon4,
   },
