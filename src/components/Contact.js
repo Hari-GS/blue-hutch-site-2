@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaYoutube, FaInstagram, FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 
 function Contact() {
     return (
@@ -16,8 +17,10 @@ function Contact() {
                                 <div className="flex flex-col space-y-6 md:space-y-8 items-center">
                                     {/* YouTube Card */}
                                     <div className="bg-white shadow-lg p-6 rounded-md hover:shadow-xl transition duration-300 w-full max-w-[500px]">
-                                        <i className="fa fa-youtube-play text-red-500 text-3xl md:text-4xl mb-4"></i>
-                                        <h3 className="text-xl font-bold mb-2">YouTube</h3>
+                                        <div className='flex '>
+                                            <FaYoutube className="text-red-500 text-3xl md:text-4xl mr-4" />
+                                            <h3 className="text-xl font-bold">YouTube</h3>
+                                        </div>
                                         <p className="text-gray-500">Subscribe to our channel.</p>
                                         <a
                                             href="https://www.youtube.com/@BlueHutch-d2u"
@@ -28,10 +31,13 @@ function Contact() {
                                             Visit Channel
                                         </a>
                                     </div>
+
                                     {/* Instagram Card */}
                                     <div className="bg-white shadow-lg p-6 rounded-md hover:shadow-xl transition duration-300 w-full max-w-[500px]">
-                                        <i className="fa fa-instagram text-pink-500 text-3xl md:text-4xl mb-4"></i>
-                                        <h3 className="text-xl font-bold mb-2">Instagram</h3>
+                                        <div className='flex'>
+                                            <FaInstagram className="text-pink-500 text-3xl md:text-4xl mr-4" />
+                                            <h3 className="text-xl font-bold">Instagram</h3>
+                                        </div>
                                         <p className="text-gray-500">Follow us for the latest posts.</p>
                                         <a
                                             href="https://www.instagram.com/blue.hutch/"
@@ -55,28 +61,28 @@ function Contact() {
                                 <div className="space-y-6">
                                     {/* Address */}
                                     <div className="flex items-start">
-                                        <i className="fa fa-map-marker text-blue-500 text-lg md:text-xl mr-4 mt-1"></i>
+                                        <FaMapMarkerAlt className="text-blue-500 text-lg md:text-xl mr-4 mt-1" />
                                         <div>
                                             <span className="block font-bold">India Location</span>
                                             <p className="text-gray-500 text-sm md:text-base">
-                                                No.352, Srinivasa Nagar, Vallam, Thanjavur<br />TN, India
+                                                No.352, Srinivasa Nagar, Vallam, Thanjavur<br />TN, India - 613 403
                                             </p>
                                         </div>
                                     </div>
                                     {/* Phone */}
                                     <div className="flex items-start">
-                                        <i className="fa fa-phone text-blue-500 text-lg md:text-xl mr-4 mt-1"></i>
+                                        <FaPhone className="text-blue-500 text-lg md:text-xl mr-4 mt-1" />
                                         <div>
                                             <span className="block font-bold">Telephone</span>
                                             <p className="text-gray-500 text-sm md:text-base">
-                                                <a href="tel:6369312803">phone 1 : +91 6369312803</a><br />
-                                                <a href="tel:9597439871">phone 2 : +91 9597439871</a>
+                                                <a href="tel:6369312803">Phone 1 : +91 6369312803</a><br />
+                                                <a href="tel:9597439871">Phone 2 : +91 9597439871</a>
                                             </p>
                                         </div>
                                     </div>
                                     {/* Email */}
                                     <div className="flex items-start">
-                                        <i className="fa fa-envelope text-blue-500 text-lg md:text-xl mr-4 mt-1"></i>
+                                        <FaEnvelope className="text-blue-500 text-lg md:text-xl mr-4 mt-1" />
                                         <div>
                                             <span className="block font-bold">Mail Us</span>
                                             <p className="text-gray-500 text-sm md:text-base">
@@ -87,7 +93,7 @@ function Contact() {
                                     </div>
                                     {/* Working Hours */}
                                     <div className="flex items-start">
-                                        <i className="fa fa-clock-o text-blue-500 text-lg md:text-xl mr-4 mt-1"></i>
+                                        <FaClock className="text-blue-500 text-lg md:text-xl mr-4 mt-1" />
                                         <div>
                                             <span className="block font-bold">Working Hours</span>
                                             <p className="text-gray-500 text-sm md:text-base">24/7</p>

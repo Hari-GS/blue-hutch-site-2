@@ -10,28 +10,28 @@ const featureData = [
     icon: <AiOutlineBulb />,
     title: "Customized Solutions for Every Need",
     description:
-      "Discuss how your services are tailored to meet specific client requirements, ensuring unique, efficient, and effective solutions that align perfectly with their business goals.",
+      "",
   },
   {
     id: 2,
     icon: <FaFire />,
     title: "Cutting-Edge Technology and Expertise",
     description:
-      "Emphasize your proficiency in the latest technologies, frameworks, and tools, showcasing your ability to deliver modern, scalable, and secure IT solutions that keep clients ahead of the curve.",
+      "",
   },
   {
     id: 3,
     icon: <GiReceiveMoney />,
     title: "Cost-Effective and Reliable Services",
     description:
-      "Highlight your competitive pricing, commitment to transparency, and dedication to delivering high-quality services within the promised timelines, providing clients with the best value for their investment.",
+      "",
   },
   {
     id: 4,
     icon: <FaRegArrowAltCircleRight />,
     title: "Dedicated Support and Client-Centric Approach",
     description:
-      "Stress your focus on exceptional customer service, including continuous communication, post-project support, and a commitment to building long-term partnerships with clients.",
+      "",
   },
 ];
 

@@ -8,8 +8,8 @@ import Service from './Service';
 const servicesData = [
   {
     id: 1,
-    name: 'Dynamic website development',
-    description: 'We build all types of dynamic and responsive websites with easy to use content management system. We also customize and maintain websites. We also do extensive animation with JavaScript and CSS.',
+    name: '3D Modeling and Graphic Design',
+    description: 'We create high-quality 3D models and stunning graphic designs for various applications. Our services include product visualization, character modeling, architectural rendering, and motion graphics.',
     icon: icon1,
   },
   {
@@ -21,13 +21,13 @@ const servicesData = [
   {
     id: 3,
     name: 'Game Development',
-    description: 'We optimize website page speed by ensuring faster loading time and lower page size. We are also experts with Google Accelerated Mobile Pages (AMP). We also work on SEO.',
+    description: 'We develop engaging 2D and 3D games with captivating visuals, smooth performance, and interactive gameplay. Our services include game design, character creation, animations, and optimization for various platforms.',
     icon: icon3,
   },
   {
     id: 4,
     name: 'Mobile App Development',
-    description: 'We develop all types of customized eCommerce Websites including Grocery stores, Clothes stores, Jewelry stores, etc. We also develop multi-store and multi-vendor sites.',
+    description: 'We design and develop high-performance mobile apps for Android and iOS. Our services include UI/UX design, backend development, API integration, and app optimization. We create user-friendly and feature-rich applications tailored to your needs.',
     icon: icon4,
   },
 ];

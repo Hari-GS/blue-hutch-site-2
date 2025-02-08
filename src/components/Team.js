@@ -1,7 +1,7 @@
 import React from 'react';
 import hari from '../images/partner/Hari (1).jpg';
-import team from '../images/partner/Team-placeholder.webp'
-import template from '../images/partner/profile-placeholder.jpg'
+import vinisha from '../images/partner/Vinisha.jpg'
+import deepan from '../images/partner/Deepan.jpg'
 
 function Team() {
   return (
@@ -33,7 +33,7 @@ function Team() {
           {/* Team Member 2 */}
           <div className="team-item bg-white shadow-lg rounded-lg overflow-hidden w-full sm:w-[250px] md:w-[300px] h-auto sm:h-[400px]">
             <div className="relative">
-              <img src={template} alt="Hariharan G" className="w-full h-48 sm:h-56 md:h-64 object-cover" />
+              <img src={deepan} alt="Hariharan G" className="w-full h-48 sm:h-56 md:h-64 object-cover" />
             </div>
             <div className="text-center py-4 sm:py-5">
               <h4 className="text-lg sm:text-xl font-semibold">
@@ -48,15 +48,15 @@ function Team() {
           {/* Team Member 3 */}
           <div className="team-item bg-white shadow-lg rounded-lg overflow-hidden w-full sm:w-[250px] md:w-[300px] h-auto sm:h-[400px]">
             <div className="relative">
-              <img src={team} alt="Deepan Raj R" className="w-full h-48 sm:h-56 md:h-64 object-cover" />
+              <img src={vinisha} alt="Vinisha" className="w-full h-48 sm:h-56 md:h-64 object-cover" />
             </div>
             <div className="text-center py-4 sm:py-5">
               <h4 className="text-lg sm:text-xl font-semibold">
                 <a href="team-single.html" className="hover:text-blue-500">
-                  Developers Team
+                  Vinisha
                 </a>
               </h4>
-              <p className="text-gray-500 text-sm sm:text-base">Total 50+ Developers</p>
+              <p className="text-gray-500 text-sm sm:text-base">Managing Director</p>
             </div>
           </div>
         </div>

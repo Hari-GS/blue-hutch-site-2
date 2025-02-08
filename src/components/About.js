@@ -1,5 +1,5 @@
 import React from 'react';
-import about1 from '../images/about/solutions/1.jpg';
+import about1 from '../images/about/solutions/about-us.webp';
 
 function About() {
     return (
@@ -13,7 +13,7 @@ function About() {
                             <p className="text-gray-600">We specialize in delivering a wide range of IT solutions tailored to meet diverse business needs. From cutting-edge 3D animation and immersive game development to advanced Artificial Intelligence and machine learning applications, our team is equipped to handle projects of all scales and complexities. Whether it's building robust web and mobile applications, designing intuitive user interfaces, creating enterprise software, or developing intelligent automation solutions, we ensure top-notch quality and innovative approaches. With a blend of experience, creativity, and technical expertise, we are dedicated to transforming ideas into impactful solutions that drive growth and success for our clients.</p>
                         </div>
                     </div>
-                    <div className="w-1/3 pr-8">
+                    <div className="w-1/3 pr-8 flex justify-center items-center">
                         <img src={about1} alt="Main Image" className="rounded shadow-lg" />
                     </div>
                 </div>
