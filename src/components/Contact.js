@@ -40,7 +40,7 @@ function Contact() {
                                         </div>
                                         <p className="text-gray-500">Follow us for the latest posts.</p>
                                         <a
-                                            href="https://www.instagram.com/blue.hutch/"
+                                            href="https://www.instagram.com/harii.bh"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="inline-block mt-4 bg-pink-500 text-white py-2 px-6 rounded-md hover:bg-pink-600 transition duration-300"
