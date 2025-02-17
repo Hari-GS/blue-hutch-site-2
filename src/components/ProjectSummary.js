@@ -8,7 +8,7 @@ function ProjectSummary() {
                     FUN FACTS ABOUT OUR AGENCY
                 </h4>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-10">
                 <div className="text-center">
                     <h2 className="text-white text-3xl md:text-4xl">10+</h2>
                     <h4 className="text-white font-medium">PROJECTS COMPLETED</h4>
@@ -18,12 +18,8 @@ function ProjectSummary() {
                     <h4 className="text-white font-medium">POSITIVE FEEDBACK</h4>
                 </div>
                 <div className="text-center">
-                    <h2 className="text-white text-3xl md:text-4xl">4</h2>
+                    <h2 className="text-white text-3xl md:text-4xl">5</h2>
                     <h4 className="text-white font-medium">MONTHS OF ACTION</h4>
-                </div>
-                <div className="text-center">
-                    <h2 className="text-white text-3xl md:text-4xl">100 to 500 Rs</h2>
-                    <h4 className="text-white font-medium">HOURLY RATE</h4>
                 </div>
             </div>
         </div>
